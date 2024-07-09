@@ -1,0 +1,342 @@
+* {
+    text-decoration: none;
+    list-style: none 
+}
+
+
+.fheader {
+    background-color: #FF5C1D;
+}
+p.envelope.text-white.ps-2 {
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+text-align: left;
+
+} 
+i.bicon {
+    height: 41px;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.navbar-nav .nav-item {
+    margin-right: 40px; /* Adjust as needed */
+  }
+  
+.nav-button {
+    margin-left: auto;
+}
+.nav-link {
+    /* color: #fff; */
+    font-size: 15px;
+    position: relative;
+    transition: all 0.4s;
+}
+.nav-Link:hover {
+    color: white;
+}
+.nav-link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #FF5C1D;
+    /* display: block; */
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+.register {
+    background-image: linear-gradient(to right, #fd5b1c 51%, #E1480E 100%);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    /* transition: 0.5s; */
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 5px;
+    border-color: #fd5b1c;
+    font-family: Barlow;
+font-size: 16px;
+/* font-weight: 700; */
+line-height: 19.2px;
+text-align: left;
+
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.sign a {
+    text-decoration: none;
+    color: black;
+    font-family: Barlow;
+font-size: 16px;
+/* font-weight: 700; */
+line-height: 19.2px;
+text-align: left;
+  
+}
+/* Header End */
+
+/* Hero */
+
+.hero {
+    background-image: url('assets/image\ 98.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero > div {
+    text-align: center; /* Center align text */
+}
+.hero > div > * {
+    margin-bottom: 20px; /* Add spacing between elements if needed */
+}
+
+.hero h3 {
+    font-family: Barlow;
+font-size: 64px;
+font-weight: 700;
+line-height: 76.8px;
+}
+.hero p {
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+.Our-Services {
+    background-color: #0C1315;
+}
+
+.Our-Services h3 {
+    font-family: Barlow;
+font-size: 24px;
+font-style: italic;
+font-weight: 700;
+line-height: 28.8px;
+text-align: left;
+color: #FF5C1D;
+}
+.Our-Services p {
+    font-family: Barlow;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+
+}
+p.below {
+    font-family: Barlow;
+font-size: 15px;
+font-weight: 500;
+line-height: 19.2px;
+}
+hr.new {
+    border-top: 2px solid #FF5C1D;
+    border-color: #FF5C1D;
+    width: 25vw;
+    margin-left: 420px;
+    margin-top: 15px;
+}
+ 
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%
+} 
+.mercedes h3 {
+    font-family: Barlow;
+font-size: 36px;
+font-weight: 700;
+line-height: 43.2px;
+color: #FF5C1D;
+}
+p.benz {
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+}
+.mercedes ul {
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+
+}
+
+button.Book {
+    padding: 7px 10px;
+    background-color: #FF5C1D;
+}
+.Book a {
+    text-decoration: none;
+ font-family: Barlow;
+font-size: 20px;
+font-style: italic;
+font-weight: 500;
+line-height: 24px;
+color: #fff;
+}
+.cards.bg-white {
+    /* width: 39%; */
+    border-radius: 13px;
+}
+p.cardp {
+    font-family: Barlow;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.6px;
+    
+}
+.Kinberly b {
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #FF5C1D;
+}
+.Kinberly p {
+    font-family: Barlow;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+
+}
+
+.information {
+    background-image: url('assets/Group\ 48.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: auto;
+
+}
+.cycle img {
+    width: 80px;
+    /* padding-top: 5px; */
+    display: block;
+    margin: auto;
+}
+.cycle-data {
+    padding-top: 10px;
+    font-family: Barlow;
+    font-weight: 400;
+ /* font-size: 30px; */
+
+/* font-weight: bold; */
+/* line-height: 25px; */
+/* text-align: left; */
+
+
+}
+.footer {
+    font-family: barlow;
+    background-image: url('assets/Group\ 54.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footer ul li a {
+text-decoration: none ;
+color: black;
+font-weight: 500;
+}
+.footer h2 {
+    color: #FF5C1D;
+}
+ul.p-0 {
+    list-style: none;
+}
+.footer p {
+    font-weight: 500;
+}
+.sub {
+    padding: 6px 10px;
+    color: white;
+    border: 0px;
+    background-color: #FF5C1D;
+    border-radius: 4px;
+}
+input.mr-2 {
+    
+    background-color: #d9d9d9;
+    border: 0px;
+    box-shadow: 0px 4px 10px 0px #00000040;
+}
+.testimonials {
+    min-height: auto;
+    background-color: #0C1315;
+    padding: 20px 0px;
+}
+.review {
+    min-height: auto;
+}
+.cards {
+    width: 40%;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.b {
+    font-size: 40px;
+    color: red;
+}
+@media only screen and (max-width: 990px) {
+    .cards {
+        width: 100%; /* Occupy full width */
+        margin-left: 0; /* Remove left margin */
+        padding-bottom: 15px; /* Preserve bottom padding */
+    }
+    .b {
+        color: red; /* Example of adjusting font color */
+        font-size: 10px; /* Adjust font size for medium and small screens */
+        font-weight: 400;
+        white-space: nowrap; /* Prevent line breaks */
+    }
+    .two-buttons {
+        margin-left: 300px;
+    }   
+}
+@media only screen and (max-width: 575px) {
+    .cards {
+        width: 90%; /* Adjust width for screens smaller than 576px */
+        margin-left: auto; /* Center the card */
+        margin-right: auto; /* Center the card */
+    }
+    .two-buttons {
+        margin-left: 150px;
+    }   
+}

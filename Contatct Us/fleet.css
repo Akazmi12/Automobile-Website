@@ -1,0 +1,342 @@
+* {
+    text-decoration: none;
+
+}
+
+.fheader {
+    background-color: #FF5C1D;
+}
+p.envelope.text-white.ps-2 {
+    font-family: Barlow;
+font-size: 16px;
+/* font-weight: 500; */
+line-height: 19.2px;
+text-align: left;
+
+} 
+i.bicon {
+    height: 41px;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.navbar-nav .nav-item {
+    margin-right: 40px; /* Adjust as needed */
+  }
+  
+.nav-button {
+    margin-left: auto;
+}
+a.nav-link.sev {
+    margin-top: 17px;
+}
+.nav-link {
+    /* color: #fff; */
+    font-size: 15px;
+    position: relative;
+    transition: all 0.4s;
+}
+.nav-Link:hover {
+    color: white;
+}
+.nav-link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #FF5C1D;
+    /* display: block; */
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+.register {
+    background-image: linear-gradient(to right, #fd5b1c 51%, #E1480E 100%);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    /* transition: 0.5s; */
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 5px;
+    border-color: #fd5b1c;
+    font-family: Barlow;
+font-size: 16px;
+/* font-weight: 700; */
+line-height: 19.2px;
+text-align: left;
+
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.sign a {
+    text-decoration: none;
+    color: black;
+    font-family: Barlow;
+font-size: 16px;
+/* font-weight: 700; */
+line-height: 19.2px;
+text-align: left;
+  
+}
+/* Header End */
+
+/* Hero */
+
+.hero {
+    background-image: url('assets/image\ 90.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero > div {
+    text-align: center; /* Center align text */
+}
+.hero > div > * {
+    margin-bottom: 20px; /* Add spacing between elements if needed */
+}
+
+.hero h3 {
+    font-family: Barlow;
+font-size: 64px;
+/* font-weight: 700; */
+line-height: 76.8px;
+}
+.hero p {
+    font-family: Barlow;
+font-size: 20px;
+/* font-weight: 400; */
+line-height: 24px;
+text-align: center;
+}
+.touch {
+    background-color: #0C1315;
+    min-height: auto;
+}
+h2.ps-4 {
+    padding-top: 45px;
+}
+hr.new {
+    border-top: 2px solid #FF5C1D;
+    border-color: #FF5C1D;
+    width: 25vw;
+    margin-left: 430px;
+    margin-top: 15px;
+}
+.elevate {
+    background-color: #0C1315;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.elevate h4 {
+    color: #FF5C1D;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.elevate b {
+    color: #FFFFFF;
+    font-family: Barlow;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact1 img {
+    width: 80px;
+}
+.contact1 {
+    
+    flex-basis: 30%; /* Adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add margin between contact items */
+}
+
+.contact1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.information {
+    background-image: url('assets/Group\ 48.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: auto;
+
+}
+.cycle img {
+    width: 80px;
+    /* padding-top: 5px; */
+    display: block;
+    margin: auto;
+}
+.cycle-data {
+    padding-top: 10px;
+    font-family: Barlow;
+ /* font-size: 30px; */
+
+font-weight: bold;
+/* line-height: 25px; */
+/* text-align: left; */
+
+}
+.checks h3 {
+    font-family: Barlow;
+    font-size: 15px;
+    /* font-weight: 500; */
+    line-height: 18px;
+    text-align: left;
+color: #FF5C1D;    
+}
+.checks p {
+    font-family: Barlow;
+font-size: 15px;
+/* font-weight: 500; */
+line-height: 18px;
+text-align: left;
+color: #fff;
+}
+.health {
+    background-color: #141A1C;
+}
+
+.precautions p {
+    font-family: Barlow;
+font-size: 16px;
+/* font-weight: 500; */
+line-height: 19.2px;
+text-align: left;
+color: white;
+}
+
+.providing {
+    background-color: #0C1315;
+    height: 25vh;
+}
+.schedule p {
+    font-family: Barlow;
+font-size: 40px;
+/* font-weight: 400; */
+line-height: 48px;
+
+}
+.message {
+    background-color: #141A1C;
+    min-height: auto;
+}
+button.mt-3.mb-3 {
+    padding: 10px 160px;
+    background-color: #FF5C1D;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-shadow: 0px 4px 10px 0px #FF5C1D4D;
+
+}
+label {
+    color: #FF5C1D;
+    padding-bottom: 5px;
+    font-family: barlow;
+}
+.us h2 {
+    color: #FF5C1D;
+    font-family: barlow;
+}
+button.btnn {
+    font-family: barlow;
+    padding: 8px 199px;
+    font-family: barlow ;
+    background-image: linear-gradient(#FF5C1D, #DD460C);
+    box-shadow: 0px 4px 10px 0px #FF5C1D4D;
+    border: 0px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.footer {
+    font-family: barlow;
+    background-image: url('assets/Group\ 54.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footer ul li a {
+text-decoration: none ;
+color: black;
+font-weight: 500;
+}
+ul.p-0 {
+    list-style: none;
+}
+.footer h2 {
+    color: #FF5C1D;
+}
+.footer p {
+    font-weight: 500;
+}
+.sub {
+    padding: 6px 10px;
+    color: white;
+    border: 0px;
+    background-color: #FF5C1D;
+    border-radius: 4px;
+}
+input.mr-2 {
+    color: red;
+    background-color: #d9d9d9;
+    border: 0px;
+    box-shadow: 0px 4px 10px 0px #00000040;
+}
+
+
+@media (max-width: 768px) {
+    /* Medium screens */
+    .btn {
+        padding: 7px 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Small screens */
+    .btn {
+        padding: 7px 40px;
+    }
+    .two-buttons {
+        margin-left: 120px;
+    }
+}
